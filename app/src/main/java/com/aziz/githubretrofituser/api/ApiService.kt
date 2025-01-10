@@ -17,14 +17,14 @@ interface ApiService {
     ): Call<UserListResponse>
 
     @GET("users/{username}")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token (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)")
     fun getUserDetail(@Path("username") username: String): Call<UserDetailResponse>
 
     @GET("users/{username}/followers")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token (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)")
     fun getFollowers(@Path("username") username: String): Call<ArrayList<User>>
 
     @GET("users/{username}/following")
-    @Headers("Authorization: token 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")
+    @Headers("Authorization: token (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)")
     fun getFollowing(@Path("username") username: String): Call<ArrayList<User>>
 }
