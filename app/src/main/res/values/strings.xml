@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Github Retrofit User</string>
+    <string name="user_image">user image</string>
+    <string name="title_detail_user">User Detail</string>
+    <string name="search_user">Search Username</string>
+    <string name="error_message">Error Connection</string>
+    <string name="empty_user">User tidak ditemukan</string>
+    <string name="followers">\u0020Followers</string>
+    <string name="following">\u0020Following</string>
+    <string name="tab_text_1">Follower</string>
+    <string name="tab_text_2">Following</string>
+    <string name="image_empty_user">image_empty_user</string>
+    <string name="image_error">image_error</string>
+    <string name="share">Share</string>
+    <string name="setting">Setting</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="title_setting">Setting</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_favorite_user">Favorite User</string>
+</resources>
